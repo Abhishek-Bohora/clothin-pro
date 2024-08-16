@@ -162,6 +162,7 @@ function ValidateSave() {
         StSortOrder: $("#StSortOrder").val(),
         StMenuHeaderId: $("#StMenuHeaderId").val()
     };
+    debugger
 
     var formData = new FormData();
     // Append model data as a JSON string
@@ -213,6 +214,14 @@ function ValidateSave() {
 //}
 
 function createstock(stId) {
+    if (stId && stId !== 0) {
+        //window.location.href = getUrlPath() + "stock/create-stock?StId=" + stId;
+        window.location.href = getUrlPath() + "stock/stockdetail?StId=" + stId;
+    } else {
+        alert("Select Item");
+    }
+}
+function Editstock(stId) {
     if (stId && stId !== 0) {
         window.location.href = getUrlPath() + "stock/create-stock?StId=" + stId;
     } else {
@@ -329,7 +338,10 @@ function saveCompanyDetail() {
     });
 }
 
+function RedirectStockCreate() {
+    window.location.href = getUrlPath() + "Stock/Create-Stock";
 
+}
 
 function createMenuHeader(id) {
     window.location.href = getUrlPath() + "MenuHeader/Create?mnId=" + id;
@@ -372,4 +384,13 @@ function deleteMenuHeader(mnId) {
             alert("Cannot Delete Data. Please try again.");
         }
     });
+}
+
+
+function OpenImageDetail(imagePath) {
+    window.open(imagePath, '_blank');
+}
+
+function ChangeImageDetail(imageUrl) {
+    $(".stockimagecontained").attr("src", imageUrl); 
 }

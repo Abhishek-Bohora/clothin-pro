@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\re clothing\\ClothingPro\\ClothingPro\\ClothingPro.csproj": {}
+    "C:\\Users\\abhis\\OneDrive\\Desktop\\clothing-proj\\ClothingPro\\ClothingPro.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\re clothing\\ClothingPro\\ClothingPro\\ClothingPro.csproj": {
+    "C:\\Users\\abhis\\OneDrive\\Desktop\\clothing-proj\\ClothingPro\\ClothingPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\re clothing\\ClothingPro\\ClothingPro\\ClothingPro.csproj",
+        "projectUniqueName": "C:\\Users\\abhis\\OneDrive\\Desktop\\clothing-proj\\ClothingPro\\ClothingPro.csproj",
         "projectName": "ClothingPro",
-        "projectPath": "D:\\Projects\\re clothing\\ClothingPro\\ClothingPro\\ClothingPro.csproj",
-        "packagesPath": "C:\\Users\\Tahir Hussain\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\re clothing\\ClothingPro\\ClothingPro\\obj\\publish\\win-x64\\",
+        "projectPath": "C:\\Users\\abhis\\OneDrive\\Desktop\\clothing-proj\\ClothingPro\\ClothingPro.csproj",
+        "packagesPath": "C:\\Users\\abhis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abhis\\OneDrive\\Desktop\\clothing-proj\\ClothingPro\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tahir Hussain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abhis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\Tahir Hussain\\Dropbox\\FriendsNuget": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Users\\abhis\\Dropbox\\FriendsNuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

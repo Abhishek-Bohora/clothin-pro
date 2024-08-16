@@ -1141,6 +1141,7 @@ C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\Cloth
 C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\ClothingPro.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\ClothingPro.RazorAssemblyInfo.cache
 C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\ClothingPro.RazorAssemblyInfo.cs
+C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\ClothingPro.sourcelink.json
 C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\abhis\OneDrive\Desktop\clothing-proj\ClothingPro\obj\Debug\net8.0\staticwebassets\msbuild.ClothingPro.Microsoft.AspNetCore.StaticWebAssets.props

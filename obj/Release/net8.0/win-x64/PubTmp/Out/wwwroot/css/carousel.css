@@ -1,4 +1,4 @@
-.carousel-container {
+/*.carousel-container {
     overflow: hidden;
 }
 
@@ -24,7 +24,7 @@
 
 .carousel-next {
     right: 0;
-}
+}*/
 
 .popularitemsheader, .latestitemsheader {
     width: 100vw;
@@ -120,10 +120,14 @@
 
     .poularimagecontainer, .latestimagecontainer {
         width: 45vw;
+        background-color:lightgrey;
     }
 
     .latestitemh1 {
         width: 50vw;
+    }
+    .card-body{
+        width:20vh;
     }
 
     .navbarmenuheaderlist {
@@ -132,7 +136,21 @@
     .imagecontained {
         margin-top: 15px;
     }
-
+    .ststockheader{
+        height:3vh;
+        text-align:center;
+        font-weight:500;
+        color:lightgrey;
+    }
+    .ststockdes{
+        margin-top:-13%;
+    }
+    .container-lg .navbarmenuheaderlist, .container-fluid {
+        width: 90vw !important; /* Use !important to override other styles */
+    }
+    .nav-item {
+        border-bottom: 0.1px solid black;
+    }
 }
 
 @media screen and (min-width: 501px) {
