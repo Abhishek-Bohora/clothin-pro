@@ -38,15 +38,44 @@
         margin-bottom: 0;
     }
 
-        #tbl-quick-search td {
-            padding: 8px 12px;
-        }
+    #tbl-quick-search td {
+        padding: 8px 12px;
+    }
 
     #closeicon {
         display: block;
         padding: 8px;
         text-align: right;
         cursor: pointer;
+    }
+
+    .float-whatsapp {
+        position: fixed;
+        width: 65px;
+        height: 65px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .float-whatsapp:hover {
+        background-color: #128C7E;
+        color: #FFF;
+    }
+
+    .my-float {
+        margin-top: 16px;
     }
 </style>
 
@@ -154,8 +183,8 @@
                     <i class="fab fa-facebook-f"></i>
                 </a>
                 <!-- https://wa.me/1234567890 put this in href and replace 1234567890 with actual phone number -->
-                <a href="https://wa.me/+9779807979378" class="me-4 text-reset">
-                    <i class="fa-brands fa-whatsapp"></i>
+                <a href="https://wa.me/+9779807979378" class="float-whatsapp" target="_blank">
+                    <i class="fa-brands fa-whatsapp fa-lg text-white"></i>
                 </a>
 
                 <a href="" class="me-4 text-reset">
